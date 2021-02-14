@@ -158,7 +158,7 @@
 };
 
 /* disabling i2c0 the codec wm8904 will be disabled on SOM */
-/* disabling i2c0 the captouch ft5x06_ts@38 will be disabled on SPEAR */
+/* disabling i2c0 the capacitive touch will be disabled on SPEAR */
 &i2c0 {
 	status = "disabled";
 };
